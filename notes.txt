@@ -1,0 +1,32 @@
+# to run scripts:
+# 1. chmod +x <filename-of-scripts>
+# 2. ./<filename>
+
+# -yy : for no prompt 
+
+# echo $PATH : shows path to current directory 
+# create personal bin directory 
+
+# mv <filename> ~/bin/
+
+# find command file path:
+# which <command-name>
+
+# for multiple users to use: 
+# put in directory /usr/local/bin
+
+# creating variables:
+# $ FOO=<variable-name>
+# $ echo FOO
+# <variable-name>
+# will sit in memory until shell is closed 
+
+# TIME=<output-from-a-command>
+# TIME="$(date)"
+
+# to veiw current bash profile directory:
+# nano ~/.profile
+
+# leave() : echos and exits 
+
+# cat << _EOF_ : prints everything on sceen until token
